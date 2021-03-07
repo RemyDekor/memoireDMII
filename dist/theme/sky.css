@@ -19,8 +19,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --main-font: Open Sans, sans-serif;
   --main-font-size: 40px;
   --main-color: #333;
-  --block-margin: 20px;
-  --heading-margin: 0 0 20px 0;
+  --block-margin: 0.5rem;
+  --heading-margin: 0 0 0.5rem 0;
   --heading-font: Quicksand, sans-serif;
   --heading-color: #333;
   --heading-line-height: 1.2;
@@ -79,7 +79,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 0 0 0.5rem 0;
   color: #333;
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
@@ -108,7 +108,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * OTHER
  *********************************************/
 .reveal p {
-  margin: 20px 0;
+  margin: 0.5rem 0;
   line-height: 1.3; }
 
 /* Remove trailing margins after titles */
@@ -170,7 +170,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   display: block;
   position: relative;
   width: 70%;
-  margin: 20px auto;
+  margin: 0.5rem auto;
   padding: 5px;
   font-style: italic;
   background: rgba(255, 255, 255, 0.05);
@@ -187,7 +187,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   display: block;
   position: relative;
   width: 90%;
-  margin: 20px auto;
+  margin: 0.5rem auto;
   text-align: left;
   font-size: 0.55em;
   font-family: monospace;
@@ -250,7 +250,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   vertical-align: top; }
 
 .reveal img {
-  margin: 20px 0; }
+  margin: 0.5rem 0; }
 
 /*********************************************
  * LINKS

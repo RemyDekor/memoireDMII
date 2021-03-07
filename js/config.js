@@ -5,11 +5,11 @@ export default {
 
 	// The "normal" size of the presentation, aspect ratio will be preserved
 	// when the presentation is scaled to fit different resolutions
-	width: 960,
-	height: 700,
+	width: 1920,
+	height: 1080,
 
 	// Factor of the display size that should remain empty around the content
-	margin: 0.04,
+	margin: 0.03,
 
 	// Bounds for smallest/largest possible scale to apply to content
 	minScale: 0.2,
@@ -232,7 +232,7 @@ export default {
 	transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 	// Transition speed
-	transitionSpeed: 'default', // default/fast/slow
+	transitionSpeed: 'slow', // default/fast/slow
 
 	// Transition style for full page slide backgrounds
 	backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom

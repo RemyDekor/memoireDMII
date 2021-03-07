@@ -19,8 +19,8 @@ html * {
   --main-font: Lato, sans-serif;
   --main-font-size: 40px;
   --main-color: #657b83;
-  --block-margin: 20px;
-  --heading-margin: 0 0 20px 0;
+  --block-margin: 0.5rem;
+  --heading-margin: 0 0 0.5rem 0;
   --heading-font: League Gothic, Impact, sans-serif;
   --heading-color: #586e75;
   --heading-line-height: 1.2;
@@ -73,7 +73,7 @@ html * {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 0 0 0.5rem 0;
   color: #586e75;
   font-family: "League Gothic", Impact, sans-serif;
   font-weight: normal;
@@ -102,7 +102,7 @@ html * {
  * OTHER
  *********************************************/
 .reveal p {
-  margin: 20px 0;
+  margin: 0.5rem 0;
   line-height: 1.3; }
 
 /* Remove trailing margins after titles */
@@ -164,7 +164,7 @@ html * {
   display: block;
   position: relative;
   width: 70%;
-  margin: 20px auto;
+  margin: 0.5rem auto;
   padding: 5px;
   font-style: italic;
   background: rgba(255, 255, 255, 0.05);
@@ -181,7 +181,7 @@ html * {
   display: block;
   position: relative;
   width: 90%;
-  margin: 20px auto;
+  margin: 0.5rem auto;
   text-align: left;
   font-size: 0.55em;
   font-family: monospace;
@@ -244,7 +244,7 @@ html * {
   vertical-align: top; }
 
 .reveal img {
-  margin: 20px 0; }
+  margin: 0.5rem 0; }
 
 /*********************************************
  * LINKS
